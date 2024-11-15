@@ -1,10 +1,12 @@
 {
+  "homepage": "https://rjlama07.github.io/Portfolio-React",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
