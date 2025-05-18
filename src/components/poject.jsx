@@ -1,5 +1,7 @@
 import { PROJECTS } from "../constants";
 import { motion } from "framer-motion";
+import { Download } from "lucide-react";
+import playstoreIcon from "../assets/projects/playstore.svg";
 
 const Project = () => {
   return (
@@ -46,6 +48,40 @@ const Project = () => {
                   {tech}
                 </span>
               ))}
+
+              {/* Store Links */}
+              <div className="mt-4 flex space-x-4">
+                {project.playStoreLink && (
+                  <a
+                    href={project.playStoreLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center text-sm text-purple-900 hover:text-purple-700 hover:scale-105 transition"
+                  >
+                    <img
+                      src={playstoreIcon} // Replace with the path to your Play Store icon
+                      alt="Play Store"
+                      className="w-5 h-5 mr-1"
+                    />
+                    Play Store
+                  </a>
+                )}
+                {project.appStoreLink && (
+                  <a
+                    href={project.appStoreLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center text-sm text-purple-900 hover:text-purple-700 hover:scale-105 transition"
+                  >
+                    <img
+                      src="/assets/appstore-icon.svg" // Replace with the path to your App Store icon
+                      alt="App Store"
+                      className="w-5 h-5 mr-1"
+                    />
+                    App Store
+                  </a>
+                )}
+              </div>
             </motion.div>
           </div>
         ))}

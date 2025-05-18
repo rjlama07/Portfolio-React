@@ -38,6 +38,9 @@ export const PROJECTS = [
     description:
       "Mediisha is a comprehensive digital health platform that offers mental health consultations, health information management solutions, health insurance program facilitation, and more",
     technologies: ["Flutter", "Riverpod"],
+    playStoreLink:
+      "https://play.google.com/store/apps/details?id=com.mediisha.user&hl=en", // Add your actual link here
+    appStoreLink: null,
   },
   {
     title: "Boia Stories",
@@ -45,13 +48,18 @@ export const PROJECTS = [
     description:
       "Boia Stories offers you a diverse range of templates that you can customize according to your preferences. Boia Stories is an interactive and multifunctional application with an interface that inspires creativity and innovation.",
     technologies: ["Flutter", "Riverpod", "Firebase"],
+    playStoreLink: null,
+    appStoreLink: null,
   },
   {
-    title: "Transform the day",
+    title: "Transform the Day",
     image: ttd,
     description:
       "Transform The Day is a powerful AI-driven social media assistant designed to take the hassle out of content creation. Leveraging 16 years of marketing expertise, it provides 365 personalized strategies, engaging stories, captivating posts, and impactful headlines. Stay ahead with weekly TikTok and Instagram trends, access real business insights, and get custom strategies crafted through an advanced profiling questionnaire.",
     technologies: ["Flutter", "Riverpod", "Firebase"],
+    playStoreLink:
+      "https://play.google.com/store/apps/details?id=transform.the.day&hl=en", // Add your actual link here
+    appStoreLink: null,
   },
 ];
 
