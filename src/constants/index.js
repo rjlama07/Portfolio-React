@@ -9,33 +9,26 @@ export const ABOUT_TEXT = `I am a dedicated and versatile Flutter developer with
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "2024 - March 2025",
+    role: "Flutter Developer",
+    company: "Algorithm Squad",
+    description: `As a Flutter Developer at Algorithm Squad, I specialized in designing and developing innovative applications for various platforms, including mobile, web, and desktop. My work involved creating applications that focused on enhancing user engagement and providing seamless experiences. I also contributed to tools for social media marketing and productivity management. Leveraging the versatility of Flutter, I ensured the delivery of high-quality, cross-platform solutions while collaborating with teams to maintain clean and scalable codebases.`,
+    technologies: ["Flutter", "Supabase", "Firebase", "Riverpod"],
   },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+  // {
+  //   year: "Jun 2023 - 2023",
+  //   role: "Flutter Developer",
+  //   company: "ShotCoder Tech",
+  //   description: `At Shotcoder Tech, I contributed to the development of Shikshya, a comprehensive school management application. My responsibilities included integrating RESTful APIs into the Flutter application to enable seamless data flow and efficient communication between the frontend and backend systems. Utilizing the BLoC state management pattern, I implemented robust and scalable features that enhanced the application's functionality and user experience. This experience sharpened my skills in API integration, Flutter development, and state management, allowing me to deliver a high-quality, user-friendly solution.`,
+  //   technologies: ["Flutter", "Bloc", "Cubit"],
+  // },
+  // {
+  //   year: "Jun 2023 -July 2023",
+  //   role: "Flutter Intern & Trainee",
+  //   company: "Optiwise Management",
+  //   description: `As an Intern and Trainee at Optiwise Management, I was responsible for developing a web application for OKR (Objectives and Key Results) management. Working as a single developer, I designed and implemented features using Flutter and Provider for state management, ensuring an intuitive and efficient user experience. This role allowed me to gain hands-on experience in web application development, state management, and delivering scalable solutions, while contributing to a product that streamlined organizational goal tracking.`,
+  //   technologies: ["Flutter", "Provider", "Flutter Web"],
+  // },
 ];
 
 export const PROJECTS = [
@@ -44,7 +37,7 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    technologies: ["Flutter", "Provider", "Flutter Web"],
   },
   {
     title: "Task Management App",
@@ -70,7 +63,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Hetauda, Nepal",
+  phoneNo: "+977 9865381790",
+  email: "riteshlama5@gmail.com",
 };
