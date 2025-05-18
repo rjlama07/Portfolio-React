@@ -1,6 +1,6 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
+import mediisha from "../assets/projects/mediisha.png";
+import boia from "../assets/projects/boia.png";
+import ttd from "../assets/projects/ttd.png";
 import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `I am a passionate Flutter developer with over 2 years of experience crafting dynamic and user-friendly mobile and web applications. Skilled in technologies like React, Node.js, PostgreSQL, Supabase, Firebase, Flutter, and MongoDB, I aim to deliver innovative solutions that enhance user experiences and drive business success.`;
@@ -33,32 +33,25 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
+    title: "Mediisha",
+    image: mediisha,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["Flutter", "Provider", "Flutter Web"],
+      "Mediisha is a comprehensive digital health platform that offers mental health consultations, health information management solutions, health insurance program facilitation, and more",
+    technologies: ["Flutter", "Riverpod"],
   },
   {
-    title: "Task Management App",
-    image: project2,
+    title: "Boia Stories",
+    image: boia,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Boia Stories offers you a diverse range of templates that you can customize according to your preferences. Boia Stories is an interactive and multifunctional application with an interface that inspires creativity and innovation.",
+    technologies: ["Flutter", "Riverpod", "Firebase"],
   },
   {
-    title: "Portfolio Website",
-    image: project3,
+    title: "Transform the day",
+    image: ttd,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Transform The Day is a powerful AI-driven social media assistant designed to take the hassle out of content creation. Leveraging 16 years of marketing expertise, it provides 365 personalized strategies, engaging stories, captivating posts, and impactful headlines. Stay ahead with weekly TikTok and Instagram trends, access real business insights, and get custom strategies crafted through an advanced profiling questionnaire.",
+    technologies: ["Flutter", "Riverpod", "Firebase"],
   },
 ];
 
