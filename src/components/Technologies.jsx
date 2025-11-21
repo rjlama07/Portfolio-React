@@ -7,6 +7,7 @@ import {
   RiFirebaseLine,
   RiNodejsLine,
 } from "react-icons/ri";
+import { SiSwift } from "react-icons/si";
 
 const iconvariants = (duration) => ({
   initial: { y: -10 },
@@ -45,6 +46,14 @@ const Technologies = () => {
           className="rounded-2xl border-4 border-neutral-800 p-4"
         >
           <RiFlutterLine className="text-7xl text-blue-200 "></RiFlutterLine>
+        </motion.div>
+        <motion.div
+          variants={iconvariants(2.4)}
+          initial="initial"
+          animate="animate"
+          className="rounded-2xl border-4 border-neutral-800 p-4"
+        >
+          <SiSwift className="text-7xl text-blue-200 "></SiSwift>
         </motion.div>
         <motion.div
           variants={iconvariants(2.5)}

@@ -64,7 +64,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Hetauda, Nepal",
-  phoneNo: "+977 9865381790",
+  address: "Melbourne, Victoria",
+  phoneNo: "+61 0414497740",
   email: "riteshlama5@gmail.com",
 };
