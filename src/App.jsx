@@ -8,11 +8,13 @@ import Projects from "./components/poject";
 import Contact from "./components/contact";
 import { div } from "framer-motion/client";
 import MacNavBar from "./components/MacUi/MacNavBar";
+import { Welcome } from "./components/MacUi/Welcome";
 
 const App = () => {
   return (
     <>
       <MacNavBar />
+      <Welcome></Welcome>
     </>
   );
   // return (
