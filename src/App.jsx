@@ -7,11 +7,12 @@ import Experience from "./components/experiece";
 import Projects from "./components/poject";
 import Contact from "./components/contact";
 import { div } from "framer-motion/client";
+import MacNavBar from "./components/MacUi/MacNavBar";
 
 const App = () => {
   return (
     <>
-      <h1>Test</h1>
+      <MacNavBar />
     </>
   );
   // return (
