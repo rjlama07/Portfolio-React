@@ -3,6 +3,7 @@ import { dockApps } from "../../constants";
 import { Tooltip } from "react-tooltip";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import useWindowStore from "../../store/window";
 
 const MacDock = () => {
   const docRef = useRef(null);
@@ -45,8 +46,25 @@ const MacDock = () => {
 
     dock.addEventListener("mousemove", handleMouseMove);
     dock.addEventListener("mouseleave", resetIcons);
-  });
-  const toggleApp = (app) => {};
+
+    return () => {
+      dock.removeEventListener("mousemove", handleMouseMove);
+      dock.removeEventListener("mouseleave", resetIcons);
+    };
+  }, []);
+
+  const { openWindow, closeWindow, windows } = useWindowStore();
+  const toggleApp = (app) => {
+    if (app.canOpen) {
+      const w = windows[app.id];
+      if (w.isOpen) {
+        closeWindow(app.id);
+      } else {
+        openWindow(app.id);
+      }
+    }
+    console.log(windows);
+  };
   return (
     <section id="dock">
       <div ref={docRef} className="dock-container">
@@ -64,7 +82,7 @@ const MacDock = () => {
                 onClick={() => {
                   const id = app.id;
                   const canOpen = app.canOpen;
-                  toggleApp({ id, canOpen });
+                  toggleApp(app);
                 }}
               >
                 <img

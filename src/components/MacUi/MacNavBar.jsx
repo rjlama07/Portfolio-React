@@ -11,7 +11,7 @@ const MacNavBar = () => {
         <ul>
           {navLinks.map((e) => {
             return (
-              <li>
+              <li key={e.id}>
                 <p>{e.name}</p>
               </li>
             );
