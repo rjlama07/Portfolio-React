@@ -9,12 +9,14 @@ import Contact from "./components/contact";
 import { div } from "framer-motion/client";
 import MacNavBar from "./components/MacUi/MacNavBar";
 import { Welcome } from "./components/MacUi/Welcome";
+import MacDock from "./components/MacUi/Dock";
 
 const App = () => {
   return (
     <>
       <MacNavBar />
       <Welcome></Welcome>
+      <MacDock></MacDock>
     </>
   );
   // return (
