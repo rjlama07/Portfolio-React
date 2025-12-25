@@ -35,11 +35,12 @@ const WindowWrapper = (Component, windowKey) => {
     useGSAP(() => {
       const el = ref.current;
       if (!el) return;
-      Draggable.create(el, {
+      const [instance] = Draggable.create(el, {
         onPress: () => {
           focusWindow(windowKey);
         },
       });
+      return () => instance.kill();
     }, []);
 
     useLayoutEffect(() => {
