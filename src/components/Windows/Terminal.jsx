@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import WindowWrapper from "../../HOC/WindowWrapper";
 import { techStack } from "../../constants";
 import { Check, Flag } from "lucide-react";
+import WindowControl from "../MacUi/WindowControl";
 
 const Terminal = () => {
   const [showCommand, setShowCommand] = useState(false);
@@ -42,7 +43,7 @@ const Terminal = () => {
   return (
     <>
       <div id="window-header">
-        <p>Window Controls</p>
+        <WindowControl target="terminal"></WindowControl>
         <h2>Tech Stack</h2>
       </div>
       <div className="techstack">
