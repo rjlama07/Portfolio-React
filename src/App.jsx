@@ -1,11 +1,4 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Technologies from "./components/Technologies";
-import Experience from "./components/experiece";
-import Projects from "./components/poject";
-import Contact from "./components/contact";
 import { div } from "framer-motion/client";
 import MacNavBar from "./components/MacUi/MacNavBar";
 import { Welcome } from "./components/MacUi/Welcome";
@@ -13,6 +6,7 @@ import MacDock from "./components/MacUi/Dock";
 import { Draggable } from "gsap/all";
 import gsap from "gsap";
 import Terminal from "./components/Windows/Terminal";
+import Portfolio from "./components/MacUi/Portfolio";
 
 gsap.registerPlugin(Draggable);
 
@@ -24,6 +18,7 @@ const App = () => {
       <MacDock></MacDock>
 
       <Terminal></Terminal>
+      <Portfolio />
     </>
   );
   // return (

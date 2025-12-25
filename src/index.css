@@ -117,7 +117,11 @@ body {
   }
 
   #safari {
-    @apply w-4xl absolute top-40 left-2/12 bg-white shadow-2xl drop-shadow-2xl rounded-xl overflow-hidden;
+    @apply absolute top-40  shadow-2xl drop-shadow-2xl rounded-xl overflow-hidden;
+    width: 80vw;
+    max-height: 80vh;
+    left: 50%;
+    transform: translateX(-50%);
 
     .search {
       @apply flex items-center gap-3 w-2/3 bg-white border border-gray-300 rounded-lg px-3 py-2;
