@@ -1,8 +1,10 @@
 import React from "react";
 import { navIcons, navLinks } from "../../constants";
 import dayjs from "dayjs";
+import useWindowStore from "../../store/window";
 
 const MacNavBar = () => {
+  const { openWindow } = useWindowStore();
   return (
     <nav>
       <div>
@@ -11,7 +13,12 @@ const MacNavBar = () => {
         <ul>
           {navLinks.map((e) => {
             return (
-              <li key={e.id}>
+              <li
+                key={e.id}
+                onClick={() => {
+                  openWindow(e.type);
+                }}
+              >
                 <p>{e.name}</p>
               </li>
             );
