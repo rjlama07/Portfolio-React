@@ -5,9 +5,24 @@ import { Search } from "lucide-react";
 import { locations } from "../../constants";
 import useLocationStore from "../../store/UseLocationStore";
 import clsx from "clsx";
+import useWindowStore from "../../store/window";
 
 const Finder = () => {
   const { activeLocation, setActiveLocation } = useLocationStore();
+  const { openWindow } = useWindowStore();
+  const openItem = (item) => {
+    console.log(item.fileType);
+    if (item.fileType === "pdf") {
+      return openWindow("resume");
+    }
+
+    if (item.kind === "folder") {
+      return setActiveLocation(item);
+    }
+    if (["fig", "url"].includes(item.fileType) && item.href) {
+      return window.open(item.href);
+    }
+  };
   return (
     <div>
       <div id="window-header">
@@ -59,6 +74,22 @@ const Finder = () => {
             </ul>
           </div>
         </div>
+        <ul className="content">
+          {activeLocation.children.map((e) => {
+            return (
+              <li
+                key={e.id}
+                className={e.position}
+                onClick={() => {
+                  openItem(e);
+                }}
+              >
+                <img src={"." + e.icon} alt="" />
+                <p>{e.name}</p>
+              </li>
+            );
+          })}
+        </ul>
       </div>
     </div>
   );

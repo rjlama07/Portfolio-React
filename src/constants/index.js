@@ -296,15 +296,15 @@ const WORK_LOCATION = {
     // ▶ Project 1
     {
       id: 5,
-      name: "Nike Ecommerce Website Application",
-      icon: "/images/folder.png",
+      name: "Boia Stories",
+      icon: "/images/boia.png",
       kind: "folder",
       position: "top-10 left-5", // icon position inside Finder
       windowPosition: "top-[5vh] left-5", // optional: Finder window position
       children: [
         {
           id: 1,
-          name: "Nike Project.txt",
+          name: "Boia Project.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
@@ -318,16 +318,16 @@ const WORK_LOCATION = {
         },
         {
           id: 2,
-          name: "nike.com",
-          icon: "/images/safari.png",
+          name: "Boia",
+          icon: "/images/AppStore.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
+          href: "https://apps.apple.com/ro/app/boia-stories/id6450309212",
           position: "top-10 right-20",
         },
         {
           id: 4,
-          name: "nike.png",
+          name: "Boia.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
@@ -349,15 +349,15 @@ const WORK_LOCATION = {
     // ▶ Project 2
     {
       id: 6,
-      name: "AI Resume Analyzer",
-      icon: "/images/folder.png",
+      name: "Mediisha",
+      icon: "/images/mediisha.png",
       kind: "folder",
       position: "top-52 right-80",
       windowPosition: "top-[20vh] left-7",
       children: [
         {
           id: 1,
-          name: "AI Resume Analyzer Project.txt",
+          name: "Boia.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
@@ -371,16 +371,16 @@ const WORK_LOCATION = {
         },
         {
           id: 2,
-          name: "ai-resume-analyzer.com",
-          icon: "/images/safari.png",
+          name: "Mediisha",
+          icon: "/images/playstore.svg",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
+          href: "https://play.google.com/store/apps/details?id=com.mediisha.user&hl=en",
           position: "top-20 left-20",
         },
         {
           id: 4,
-          name: "ai-resume-analyzer.png",
+          name: "Mediisha.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
@@ -402,15 +402,15 @@ const WORK_LOCATION = {
     // ▶ Project 3
     {
       id: 7,
-      name: "Food Delivery App",
-      icon: "/images/folder.png",
+      name: "Transform the day",
+      icon: "/images/ttd.png",
       kind: "folder",
       position: "top-10 left-80",
       windowPosition: "top-[33vh] left-7",
       children: [
         {
           id: 1,
-          name: "Food Delivery App Project.txt",
+          name: "TTD.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
@@ -424,11 +424,11 @@ const WORK_LOCATION = {
         },
         {
           id: 2,
-          name: "food-delivery-app.com",
-          icon: "/images/safari.png",
+          name: "TTD",
+          icon: "/images/playstore.svg",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
+          href: "https://play.google.com/store/apps/details?id=transform.the.day&hl=en",
           position: "top-10 right-20",
         },
         {
