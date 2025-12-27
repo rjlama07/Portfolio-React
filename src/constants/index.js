@@ -310,10 +310,8 @@ const WORK_LOCATION = {
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-            "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-            "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-            "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+            "Boia Stories offers you a diverse range of templates that you can customize according to your preferences.",
+            "Boia Stories is an interactive and multifunctional application with an interface that inspires creativity and innovation.",
           ],
         },
         {
@@ -332,7 +330,7 @@ const WORK_LOCATION = {
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
-          imageUrl: "/images/project-1.png",
+          imageUrl: "/images/projectBoia.png",
         },
         {
           id: 5,
@@ -357,16 +355,13 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Boia.txt",
+          name: "Mediisha.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 right-10",
           description: [
-            "AI Resume Analyzer is a smart tool that helps you perfect your resume with instant feedback.",
-            "Instead of guessing what recruiters want, you get AI-powered insights on keywords, formatting, and overall impact.",
-            "Think of it like having a career coach—pointing out strengths, fixing weaknesses, and boosting your chances of landing interviews.",
-            "It's built with Next.js and Tailwind, so it runs fast, looks professional, and works seamlessly on any device.",
+            "Mediisha is a comprehensive digital health platform that offers mental health consultations, health information management solutions, health insurance program facilitation, and more",
           ],
         },
         {
@@ -385,7 +380,7 @@ const WORK_LOCATION = {
           kind: "file",
           fileType: "img",
           position: "top-52 left-80",
-          imageUrl: "/images/project-2.png",
+          imageUrl: "/images/projectMediisha.png",
         },
         {
           id: 5,
@@ -416,10 +411,9 @@ const WORK_LOCATION = {
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
-            "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
-            "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
-            "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
+            "Transform The Day is a powerful AI-driven social media assistant designed to take the hassle out of content creation.",
+            "Leveraging 16 years of marketing expertise, it provides 365 personalized strategies, engaging stories, captivating posts, and impactful headlines.",
+            "Stay ahead with weekly TikTok and Instagram trends, access real business insights, and get custom strategies crafted through an advanced profiling questionnaire.",
           ],
         },
         {
@@ -433,12 +427,12 @@ const WORK_LOCATION = {
         },
         {
           id: 4,
-          name: "food-delivery-app.png",
+          name: "TTD.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
-          imageUrl: "/images/project-3.png",
+          imageUrl: "/images/projectTTD.png",
         },
         {
           id: 5,
@@ -468,7 +462,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-10 left-5",
-      imageUrl: "/images/adrian.jpg",
+      imageUrl: "/images/rj.png",
     },
     {
       id: 2,
@@ -477,17 +471,17 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-28 right-72",
-      imageUrl: "/images/adrian-2.jpg",
+      imageUrl: "/images/Aboutme.jpeg",
     },
-    {
-      id: 3,
-      name: "conference-me.png",
-      icon: "/images/image.png",
-      kind: "file",
-      fileType: "img",
-      position: "top-52 left-80",
-      imageUrl: "/images/adrian-3.jpeg",
-    },
+    // {
+    //   id: 3,
+    //   name: "conference-me.png",
+    //   icon: "/images/image.png",
+    //   kind: "file",
+    //   fileType: "img",
+    //   position: "top-52 left-80",
+    //   imageUrl: "/images/adrian-3.jpeg",
+    // },
     {
       id: 4,
       name: "about-me.txt",
@@ -496,12 +490,13 @@ const ABOUT_LOCATION = {
       fileType: "txt",
       position: "top-60 left-5",
       subtitle: "Meet the Developer Behind the Code",
-      image: "/images/adrian.jpg",
+      image: "/images/rj.png",
+
       description: [
-        "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-        "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
-        "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-        "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
+        "Hey! I’m Ritesh 👋,a dedicated and versatile Cross Platform developer with a passion for building efficient and user-friendly mobile and web applications.",
+        "With over 2 years of professional experience, I have honed my skills in technologies such as React, Node.js, PostgreSQL, Supabase, Firebase, Flutter, and MongoDB.",
+        "My journey in development began with a curiosity for solving problems, and it has grown into a career where I continuously embrace new challenges and innovations.",
+        "I thrive in collaborative environments and enjoy crafting solutions that meet user needs and business goals. Outside of coding, I enjoy exploring new technologies and staying engaged in the tech community.",
       ],
     },
   ],
@@ -558,7 +553,7 @@ export const locations = {
   work: WORK_LOCATION,
   about: ABOUT_LOCATION,
   resume: RESUME_LOCATION,
-  trash: TRASH_LOCATION,
+  // trash: TRASH_LOCATION,
 };
 
 const INITIAL_Z_INDEX = 1000;

@@ -13,7 +13,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = new URL(
 
 const Resume = () => {
   return (
-    <>
+    <div>
       <div id="window-header">
         <WindowControl target="resume" />
         <h2>Resume.pdf</h2>
@@ -24,7 +24,7 @@ const Resume = () => {
       <Document file="./files/resume.pdf">
         <Page pageNumber={1} renderTextLayer renderAnnotationLayer />
       </Document>
-    </>
+    </div>
   );
 };
 

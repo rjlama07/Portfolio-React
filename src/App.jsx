@@ -16,6 +16,8 @@ import Experience from "./components/experiece";
 import Projects from "./components/poject";
 import Contact from "./components/contact";
 import Finder from "./components/MacUi/Finder";
+import Text from "./components/MacUi/Text";
+import Image from "./components/MacUi/Image";
 gsap.registerPlugin(Draggable);
 
 gsap.registerPlugin(Draggable);
@@ -70,6 +72,8 @@ const App = () => {
       <Portfolio />
       <Resume />
       <Finder />
+      <Text />
+      <Image />
     </>
   );
 };

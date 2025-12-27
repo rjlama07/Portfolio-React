@@ -22,6 +22,15 @@ const Finder = () => {
     if (["fig", "url"].includes(item.fileType) && item.href) {
       return window.open(item.href);
     }
+
+    if (item.fileType === "txt") {
+      console.log("txtfile");
+      return openWindow("txtfile", item);
+    }
+    if (item.fileType === "img") {
+      console.log("cha");
+      return openWindow("imgfile", item);
+    }
   };
   return (
     <div>

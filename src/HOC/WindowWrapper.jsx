@@ -50,7 +50,12 @@ const WindowWrapper = (Component, windowKey) => {
     }, [isOpen]);
 
     return (
-      <section id={windowKey} ref={ref} style={{ zIndex }} className="absolute">
+      <section
+        id={windowKey}
+        ref={ref}
+        style={{ zIndex }}
+        className="absolute "
+      >
         <Component {...props} />
       </section>
     );
