@@ -14,10 +14,11 @@ import About from "./components/About";
 import Technologies from "./components/Technologies";
 import Experience from "./components/experiece";
 import Projects from "./components/poject";
-import Contact from "./components/contact";
+import MacContact from "./components/MacUi/Contact";
 import Finder from "./components/MacUi/Finder";
 import Text from "./components/MacUi/Text";
 import Image from "./components/MacUi/Image";
+import Contact from "./components/contact";
 gsap.registerPlugin(Draggable);
 
 gsap.registerPlugin(Draggable);
@@ -74,6 +75,7 @@ const App = () => {
       <Finder />
       <Text />
       <Image />
+      <MacContact />
     </>
   );
 };
