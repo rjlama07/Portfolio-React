@@ -18,7 +18,7 @@ const MacContact = () => {
         />
         <h3>Lets Connect</h3>
         <p>Got an Idea? A bug to squash? Or wanna talk tech? I'm in.</p>
-        <p>riteslama5@gmail.com</p>
+        <p>riteshlama5@gmail.com</p>
         <ul>
           {socials.map((e) => {
             return (
